@@ -65,7 +65,7 @@ function FutureEvents({
               <img
                 src={eventImage}
                 alt="futureEvent"
-                className="event-image"
+                className="future-event-image"
               />
               <div className="event-details">
                 <h3 className="event-date">{eventDate}</h3>

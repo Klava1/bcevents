@@ -69,6 +69,7 @@ body {
   padding: 10px 20px;
   border: none;
   background-color: #e6e6e6;
+  color: black;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -246,7 +247,7 @@ body {
   align-items: center;
 }
 
-.event-image {
+.future-event-image {
   max-width: 100%;
   border-radius: 8px;
 }
@@ -344,6 +345,7 @@ body {
 
 .slides-btn button {
   background-color: #fff;
+  color: black;
   border: 1px solid #ddd;
   padding: 20px 20px;
   cursor: pointer;
@@ -656,6 +658,16 @@ body {
 @media (max-width: 480px) {
   .header {
     padding: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column; /* Stack the links vertically */
+    align-items: flex-end; /* Align links to the right */
+    gap: 10px;
+    width: 100%; /* Ensure it takes full width */
   }
 
   .logo {
@@ -664,10 +676,18 @@ body {
 
   .nav-link {
     font-size: 14px;
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Ensure links take full width */
+    padding-right: 10px; /* Add some padding to the right */
   }
 
   .event-image {
     width: 100%;
+  }
+
+  .future-event-image {
+    max-width: 70%;
+    border-radius: 8px;
   }
 
   .blog-post-image {
