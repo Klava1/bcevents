@@ -69,11 +69,7 @@ body {
   padding: 10px 20px;
   border: none;
   background-color: #e6e6e6;
-<<<<<<< HEAD
-  color: black;
-=======
   color:#000000;
->>>>>>> 79c2e930e8b9eca988b2d76410280f935c25d3d4
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -349,11 +345,7 @@ body {
 
 .slides-btn button {
   background-color: #fff;
-<<<<<<< HEAD
   color: black;
-=======
-  color:#000000;
->>>>>>> 79c2e930e8b9eca988b2d76410280f935c25d3d4
   border: 1px solid #ddd;
   padding: 20px 20px;
   cursor: pointer;
